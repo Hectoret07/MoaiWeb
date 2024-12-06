@@ -1,0 +1,69 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+}
+.right {
+    background-color: #e5e5e5;
+    float: right;
+    width: 20%;
+    padding: 15px;
+    margin-top: 7px;
+    text-align: center;
+}
+.imagen-pantalla {
+    text-align: center;
+   max-width: 500px;
+   margin: auto;
+   margin-top: 5px;
+       
+}
+.mapa-carpinteria {
+    text-align: center;
+    max-width: 1000px;
+    margin: auto;
+  
+}
+ul {
+    list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background: #000000;  /* fallback for old browsers */
+     background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     
+
+}
+
+li {
+     float: right;
+}
+.texto-mapa {
+    text-align: center;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    padding: 28px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+@media only screen and (max-width: 620px) {
+/* For mobile phones: */
+.menu, .main, .right{
+width: 100%;
+}
+}
